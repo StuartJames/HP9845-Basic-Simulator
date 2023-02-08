@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\SJCommon\RoundButtonEx.cpp" />
+    <ClCompile Include="..\..\Libraries\SJCommon\RoundButtonStyle.cpp" />
+    <ClCompile Include="AsciiFont7x12.cpp" />
+    <ClCompile Include="Basic\BiultInFunctions.cpp" />
+    <ClCompile Include="Basic\BObject.cpp" />
+    <ClCompile Include="Basic\ComRegistry.cpp" />
+    <ClCompile Include="Basic\Devices.cpp" />
+    <ClCompile Include="Basic\Graphics.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Basic\LabelRegistry.cpp" />
+    <ClCompile Include="Basic\Stack.cpp" />
+    <ClCompile Include="Basic\Basic.cpp" />
+    <ClCompile Include="Basic\LocalRegistry.cpp" />
+    <ClCompile Include="Basic\Process.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Basic\Program.cpp" />
+    <ClCompile Include="Basic\Statement.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Basic\StringList.cpp" />
+    <ClCompile Include="Basic\Strings.cpp" />
+    <ClCompile Include="Basic\LexScanner.cpp" />
+    <ClCompile Include="Basic\ScannerTables.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Basic\GlobalRegistry.cpp" />
+    <ClCompile Include="Basic\Values.cpp" />
+    <ClCompile Include="Basic\Variables.cpp" />
+    <ClCompile Include="CDib08.cpp" />
+    <ClCompile Include="FunctionBar.cpp" />
+    <ClCompile Include="Hardware\ExTextRow.cpp" />
+    <ClCompile Include="Hardware\Printer0.cpp" />
+    <ClCompile Include="S45BasicPrint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SoftKeys.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="Hardware\Device.cpp" />
+    <ClCompile Include="Hardware\Doubles.cpp" />
+    <ClCompile Include="Hardware\HersheyFunctions.cpp" />
+    <ClCompile Include="Hardware\HersheyFont.cpp" />
+    <ClCompile Include="Hardware\MassStorage.cpp" />
+    <ClCompile Include="Hardware\Plotter.cpp" />
+    <ClCompile Include="Hardware\Plotter13.cpp" />
+    <ClCompile Include="Hardware\Printer.cpp" />
+    <ClCompile Include="Hardware\Printer16.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MinMaxLogic.cpp" />
+    <ClCompile Include="MMFrame.cpp" />
+    <ClCompile Include="S45Basic.cpp" />
+    <ClCompile Include="S45BasicDoc.cpp" />
+    <ClCompile Include="S45BasicView.cpp" />
+    <ClCompile Include="SourceEdit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThemeHelperST.cpp" />
+    <ClCompile Include="XThemeHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\SJCommon\RoundButtonEx.h" />
+    <ClInclude Include="..\..\Libraries\SJCommon\RoundButtonStyle.h" />
+    <ClInclude Include="Basic\BiultInFunctions.h" />
+    <ClInclude Include="Basic\BObject.h" />
+    <ClInclude Include="Basic\ComRegistry.h" />
+    <ClInclude Include="Basic\Devices.h" />
+    <ClInclude Include="Basic\Graphics.h" />
+    <ClInclude Include="Basic\LabelRegistry.h" />
+    <ClInclude Include="Basic\Stack.h" />
+    <ClInclude Include="Basic\Basic.h" />
+    <ClInclude Include="Basic\BasicDefs.h" />
+    <ClInclude Include="Basic\BasicErrors.h" />
+    <ClInclude Include="Basic\BasicTypes.h" />
+    <ClInclude Include="Basic\LocalRegistry.h" />
+    <ClInclude Include="Basic\Program.h" />
+    <ClInclude Include="Basic\Statement.h" />
+    <ClInclude Include="Basic\StringList.h" />
+    <ClInclude Include="Basic\Strings.h" />
+    <ClInclude Include="Basic\LexScanner.h" />
+    <ClInclude Include="Basic\GlobalRegistry.h" />
+    <ClInclude Include="Basic\Values.h" />
+    <ClInclude Include="Basic\Variables.h" />
+    <ClInclude Include="CDib08.h" />
+    <ClInclude Include="FontInfo.h" />
+    <ClInclude Include="Hardware\Device.h" />
+    <ClInclude Include="Hardware\Doubles.h" />
+    <ClInclude Include="Hardware\ExTextRow.h" />
+    <ClInclude Include="Hardware\HersheyFunctions.h" />
+    <ClInclude Include="Hardware\HersheyFont.h" />
+    <ClInclude Include="Hardware\MassStorage.h" />
+    <ClInclude Include="Hardware\Plotter.h" />
+    <ClInclude Include="Hardware\Plotter13.h" />
+    <ClInclude Include="Hardware\Printer.h" />
+    <ClInclude Include="Hardware\Printer0.h" />
+    <ClInclude Include="Hardware\Printer16.h" />
+    <ClInclude Include="MemoryDC.h" />
+    <ClInclude Include="FunctionBar.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MinMaxLogic.h" />
+    <ClInclude Include="MMFrame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="S45Basic.h" />
+    <ClInclude Include="S45BasicDefs.h" />
+    <ClInclude Include="S45BasicDoc.h" />
+    <ClInclude Include="S45BasicView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ThemeHelperST.h" />
+    <ClInclude Include="XThemeHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\S45Basic.rc2" />
+    <None Include="S45Basic.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="S45Basic.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Functionbar.bmp" />
+    <Image Include="res\S45Basic.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\S45BasicDoc.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{00284267-F2F0-45E5-9757-2F1A9B3109C4}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>S45Basic</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>S45Basic</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\Projects\Visual Studio\CPlusPlus\S45Basic\S45Basic;E:\BugTrap for Win32 &amp; .NET\Win32\BugTrap;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJCommon;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJLibs;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\BugTrap for Win32 &amp; .NET\Win32\bin;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJLibs;$(LibraryPath)</LibraryPath>
+    <OutDir>E:\output\$(SolutionName)\$(Configuration)\</OutDir>
+    <IntDir>E:\output\$(SolutionName)\$(Configuration)\Build\</IntDir>
+    <ExecutablePath>D:\GnuWin32\bin;$(ExecutablePath)</ExecutablePath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <EnableMicrosoftCodeAnalysis>true</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\Projects\Visual Studio\CPlusPlus\S45Basic\S45Basic;E:\BugTrap for Win32 &amp; .NET\Win32\BugTrap;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJCommon;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJLibs;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\BugTrap for Win32 &amp; .NET\Win32\bin;E:\Projects\Visual Studio\CPlusPlus\Libraries\SJLibs;$(LibraryPath)</LibraryPath>
+    <OutDir>E:\output\$(SolutionName)\$(Configuration)\</OutDir>
+    <IntDir>E:\output\$(SolutionName)\$(Configuration)\Build\</IntDir>
+    <ExecutablePath>D:\GnuWin32\bin;$(ExecutablePath)</ExecutablePath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BrowseInformation>true</BrowseInformation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <SupportJustMyCode>false</SupportJustMyCode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>version.lib;BugTrapU.lib;SetUpApi.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>version.lib;BugTrapU.lib;SetUpApi.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

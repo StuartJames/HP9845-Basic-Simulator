@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Basic\Basic.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\BiultInFunctions.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\BObject.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Device.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Devices.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Doubles.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\LexScanner.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\MassStorage.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Graphics.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Program.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Plotter.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Plotter13.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Printer.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Printer16.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Values.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Variables.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Strings.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\StringList.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Statement.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Stack.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\ScannerTables.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Process.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeHelperST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S45Basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S45BasicView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\HersheyFont.cpp">
+      <Filter>Source Files\Hershey Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\HersheyFunctions.cpp">
+      <Filter>Source Files\Hershey Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\GlobalRegistry.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\ComRegistry.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\LocalRegistry.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\LabelRegistry.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftKeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiFont7x12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\ExTextRow.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="S45BasicDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Printer0.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="S45BasicPrint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDib08.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XThemeHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\SJCommon\RoundButtonEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\SJCommon\RoundButtonStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic\Basic.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\BasicDefs.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\BasicErrors.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\BasicTypes.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\BiultInFunctions.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\BObject.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Device.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Devices.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Doubles.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\MassStorage.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\LexScanner.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Graphics.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Plotter13.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Printer.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Printer16.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Variables.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Values.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Strings.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\StringList.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Statement.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Stack.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S45Basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S45BasicDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S45BasicDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S45BasicView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeHelperST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Program.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\HersheyFont.h">
+      <Filter>Header Files\Hershey Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\HersheyFunctions.h">
+      <Filter>Header Files\Hershey Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Plotter.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\GlobalRegistry.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\ComRegistry.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\LocalRegistry.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\LabelRegistry.h">
+      <Filter>Header Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="FontInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\ExTextRow.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Printer0.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="CDib08.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XThemeHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SJCommon\RoundButtonEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SJCommon\RoundButtonStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\S45Basic.ico">
+      <Filter>Resorces</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resorces</Filter>
+    </Image>
+    <Image Include="res\Functionbar.bmp">
+      <Filter>Resorces</Filter>
+    </Image>
+    <Image Include="res\S45BasicDoc.ico">
+      <Filter>Resorces</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\S45Basic.rc2">
+      <Filter>Resorces</Filter>
+    </None>
+    <None Include="S45Basic.reg">
+      <Filter>Resorces</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{eba27def-617f-44a0-91ee-051c3e6d30f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{069b9684-e700-497d-8483-462636d28143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Basic">
+      <UniqueIdentifier>{129714fa-45c6-4abd-b8cc-2ebb09b44001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hardware">
+      <UniqueIdentifier>{644eae64-b97f-4cdb-88ca-3c64fb20c5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic">
+      <UniqueIdentifier>{0434e9cd-25d0-4e1d-a349-a135f000b06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hardware">
+      <UniqueIdentifier>{8c892420-08e4-4d01-ab56-775f0ed1066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resorces">
+      <UniqueIdentifier>{142f28ed-de77-4a04-92da-be0d6bf2106a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hershey Font">
+      <UniqueIdentifier>{50ae7be5-209c-4275-a85b-243476fbd7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hershey Font">
+      <UniqueIdentifier>{350d90fe-9cbd-4df2-b8ae-6241e5c27bbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="S45Basic.rc">
+      <Filter>Resorces</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
