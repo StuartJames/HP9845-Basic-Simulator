@@ -1,19 +1,21 @@
-HP9845 Basic Simulator
+HP9845 Basic Simulator.
 ..........................
 
-:Stable release:  Unreleased
+:Stable release:  Unreleased.
 
-:Status:  Work in Progress
+:Status:  Work in Progress.
 
 :Maintainer:  sjames@hydrasystems.com
 
-:Description:  Simulator for running Rocky Mountain Basic shipped with the HP98 series desktop computers
+:Description:  Simulator for running Rocky Mountain Basic shipped with the HP98 series desktop computers.
+
+
 
 
 Key Features
 ============
 
-* Fully compatable with standard RM basic:
+* Fully compatible with standard RM basic:
     * Runs standard ROM keyword and statements.
     * Runs limited I/O keyword functionality.
     * Includes Graphics ROM keyword and statements.
