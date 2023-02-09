@@ -45,6 +45,11 @@ Required Hardware
 
 * Standard PC running Windows 7 or greater.
 
+Note
+=======
+
+I use a tab size of 2 for all source code. Using anything else may look weird.
+
 Support
 =======
 
